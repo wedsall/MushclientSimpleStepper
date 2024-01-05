@@ -1,7 +1,7 @@
 # MushclientSimpleStepper
 ```
 This plugin allows loading paths from an external master file and executing commands step by step.
- Use '- [filename]' to load a path file. Each path should be in the format 'pathName=command1;command2;...'.
+ Use '- [pathname]' to load a path file. Each path should be in the format 'pathName=command1;command2;...'.
  Use '.' to execute the next command in the loaded path.
  Use '..' to go backwards one step. This will only work if there is a reverse command specified in the plugin code.
  Use 'stepperhelp' to print this help.

@@ -1,4 +1,5 @@
 # MushclientSimpleStepper
+```
 This plugin allows loading paths from an external master file and executing commands step by step.
  Use '- [filename]' to load a path file. Each path should be in the format 'pathName=command1;command2;...'.
  Use '.' to execute the next command in the loaded path.
@@ -40,3 +41,4 @@ nod
 Steps left: 2, Next step: cheer
 You smile happily.
 You nod solemnly.
+```

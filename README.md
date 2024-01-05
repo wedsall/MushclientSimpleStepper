@@ -4,7 +4,6 @@ This plugin allows loading paths from an external master file and executing comm
  Use '- [pathname]' to load a path file. Each path should be in the format 'pathName=command1;command2;...'.
  Use '.' to execute the next command in the loaded path.
  Use '..' to go backwards one step. This will only work if there is a reverse command specified in the plugin code.
- Use 'stepperhelp' to print this help.
  
 Edit the plugin and reload to modify:
  1. masterFilePath: the path to your master file containing all of your path data.

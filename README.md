@@ -14,30 +14,30 @@ The master file can contain several lines. Example line:
  test=n;w;s;e;kill guard;smile,nod;cheer;bow
 
 To load this path from the master file, you would use the command: - test
-- test
-Current path set to: test
-Total steps: 8, First step: n
+ - test
+ Current path set to: test
+ Total steps: 8, First step: n
 
 Now to take a step: .
-. 
-Executing command: n
-n
-Steps left: 7, Next step: w
-Maybe you should look for another exit.
+ . 
+ Executing command: n
+ n
+ Steps left: 7, Next step: w
+ Maybe you should look for another exit.
 
 Now to step backward:
-..
-Going back one step: s
-s
-Maybe you should look for another exit.
+ ..
+ Going back one step: s
+ s
+ Maybe you should look for another exit.  
 
 Note: if your path has commas like smile,nod then both commands will be executed at once
-.
-Executing command: smile
-smile
-Executing command: nod
-nod
-Steps left: 2, Next step: cheer
-You smile happily.
-You nod solemnly.
+ .
+ Executing command: smile
+ smile
+ Executing command: nod
+ nod
+ Steps left: 2, Next step: cheer
+ You smile happily.
+ You nod solemnly.
 ```
